@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+.navBar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navBar h1 {
+  color: #ba68c8;
+  position: relative;
+  left: -300px;
+  text-decoration: solid;
+  font-size: 1cm;
+}
+
+.navBar h2 {
+  color: #ba68c8;
+  opacity: 0.8;
+  position: relative;
+  left: -350px;
+  bottom: -60px;
+  float: left;
+}
+
+.navBar .links {
+  margin-left: auto;
+}
+
+.navBar a {
+  padding: 6px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navBar a:hover {
+  color: #ba68c8;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.book-preview {
+  margin: 20px 0;
+  padding: 10px 16px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.book-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-preview h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ba68c8;
+}
+
+.book-preview a {
+  text-decoration: none;
+}
+
+.book-details h2 {
+  font-size: 20px;
+  color: #ba68c8;
+  margin-bottom: 10px;
+}
+
+.book-details div {
+  margin: 20px 0;
+}
+
+.book-details button {
+  background: #ba68c8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h3 {
+  font-size: 20px;
+  color: #ba68c8;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #ba68c8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
